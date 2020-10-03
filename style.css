@@ -1,0 +1,96 @@
+.child1{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 30%;
+	border-radius: 10%;
+	background-color:#3e4444;
+	color: silver;
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 65%;
+	font-size:22px;
+	border-radius: 10%;
+	background-color:#3e4444;
+	overflow: hidden;
+	color: silver; 
+
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background-color:#8FBC8F;
+
+}
+img{
+	width: 80%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px ;
+	border-radius: 10%;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.child1{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 94%;
+	border-radius: 10%;
+
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 94%;
+	font-size:22px;
+ 
+
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+
+
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.child1{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 40%;
+	border-radius: 10%;
+	
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 40%;
+	font-size:22px; 
+	border-radius: 10%;
+
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+
+}
+}
