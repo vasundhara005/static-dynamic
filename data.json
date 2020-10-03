@@ -1,0 +1,52 @@
+{
+	"details":{
+		"name":"vasundhara",
+		"image":"vasu.jpg",
+		"email":"vasundhrasiriki@gmail.com",
+		"number":"+91-8639004659",
+		"address":"kaikaluru"
+
+	},
+	"careerobjective": {
+	"info1" :"to become a software developer"
+    },
+
+    "educationqualification":[
+    	{
+    		"institute" :"sir c r reddy college of engineering",
+    		"degree" :"b.tech",
+    		"passoutyear" :"2021",
+    		"percentage": "74.9%"
+    	
+    	},
+    	{
+    	    "institute" :"sri chaitanya junior college",
+    		"degree" :"intermediate",
+    		"passoutyear" :"2017",
+    		"percentage": "96%"
+    	},
+    	{
+    		"institute" : "gandhi nagar MCH school",
+    		"degree" :"ssc",
+    		"passoutyear" :"2015",
+    		"percentage" : "81%"
+    	}	
+    ],
+    "techinicalskills":[
+    	{
+    		"title":"programming languages",
+    		"info" :["c,python,javascript"]
+    	},
+    	{
+    		"title":"databases",
+    		"info": ["oracle,sql,mysql"]
+    	},
+    	{
+    		"title":"operating systems",
+    		"info":["unix,windows,ubuntu,dos"]
+    	}
+
+
+    ]
+}    
+
