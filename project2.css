@@ -1,0 +1,150 @@
+
+.child1{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 35%;
+	border-radius: 10%;
+	text-align: center;
+	margin-left: auto;
+	font-size: 25px;
+	font-style: italic;
+	background-color: gray;
+	color:black;
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 35%;
+	border-radius: 10%;
+	margin-right: auto;
+	text-align: center; 
+	font-size: 25px;
+	font-style: italic;
+	background-color: gray;
+	color: black;
+
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background-color: black; 
+
+}
+
+.child1>img{
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px ;
+	border-radius: 10%;
+}
+
+.child2>img{
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px ;
+	border-radius: 10%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+
+}
+.child1{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 96%;
+	border-radius: 10%;
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	background-color: gray;
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 96%;
+	border-radius: 10%;
+	text-align: center; 
+	font-size: 25px;
+	font-style: italic;
+	background-color: gray;
+
+}
+
+  /* .child1{
+	 border:2px solid #ddd;
+	 padding: 1%;
+	 margin: 1%;
+	 width: 35%;
+	 border-radius: 10%;
+	 text-align: center;
+	 margin-left: auto;
+	 font-size: 25px;
+	 font-style: italic;
+	 background-color: gray;
+}
+.child2{
+	border:2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	width: 35%;
+	border-radius: 10%;
+	margin-right: auto;
+	text-align: center; 
+	font-size: 25px;
+	font-style: italic;
+	background-color: gray;
+
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+
+}
+
+.child1>img{
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px ;
+	border-radius: 10%;
+}
+
+.child2>img{
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 4px 5px ;
+	border-radius: 10%;
+}
+
+}*/
